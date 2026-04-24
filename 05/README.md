@@ -158,3 +158,11 @@ CMD ["sh", "-c", ". venv/bin/activate && uvicorn \"app.main:app\" --host 0.0.0.0
 
 #### beda terminal
 <img width="948" height="99" alt="image" src="https://github.com/user-attachments/assets/30e3cf25-b891-4761-a7b7-20e818da9470" />
+
+---
+
+## 📖 Penjelasan:
+#### Modul 5 membahas konsep Fault Tolerance dalam sistem terdistribusi, yaitu kemampuan sistem untuk tetap beroperasi meskipun terjadi kegagalan pada salah satu komponennya. Pada bagian 4.1 Load Balancing Aplikasi, dijelaskan proses pembuatan aplikasi web berbasis Python menggunakan framework Blacksheep, kemudian aplikasi tersebut dikemas menggunakan Docker agar dapat dijalankan dalam container. Selanjutnya digunakan Nginx sebagai load balancer untuk mendistribusikan request ke lebih dari satu instance aplikasi sehingga tercapai high availability dan performa yang lebih stabil. Pengelolaan container dilakukan menggunakan docker-compose.yml yang memudahkan proses scaling, misalnya menjalankan dua instance bs_app secara bersamaan. Pada bagian 4.2 Failure Detection, modul menjelaskan beberapa teknik untuk mendeteksi kegagalan sistem, yaitu heartbeat untuk memeriksa apakah service masih aktif, retry menggunakan library Tenacity untuk mencoba kembali koneksi yang gagal, serta circuit breaker untuk mencegah kegagalan berantai dengan memutus sementara akses ke service yang sedang bermasalah. Ketiga teknik ini sangat penting dalam menjaga keandalan aplikasi terdistribusi
+
+## 🎯 Kesimpulan:
+#### Kesimpulannya, modul ini menunjukkan bahwa penerapan fault tolerance sangat penting dalam pengembangan sistem terdistribusi modern. Dengan menggunakan load balancing, aplikasi dapat menangani banyak request secara lebih efisien dan tetap tersedia walaupun salah satu instance mengalami masalah. Sementara itu, mekanisme failure detection seperti heartbeat, retry, dan circuit breaker membantu sistem mengenali gangguan lebih cepat serta mengurangi dampak kegagalan terhadap keseluruhan layanan. Melalui praktik ini, dapat dipahami bahwa kombinasi antara Docker, Nginx, dan strategi deteksi kegagalan merupakan solusi yang efektif untuk membangun sistem yang andal, scalable, dan tahan terhadap error
