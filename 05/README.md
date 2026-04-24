@@ -117,3 +117,44 @@ CMD ["sh", "-c", ". venv/bin/activate && uvicorn \"app.main:app\" --host 0.0.0.0
 
 ### jalankan docker compose
 <img width="924" height="993" alt="image" src="https://github.com/user-attachments/assets/e43fd9e5-bc3c-45f2-b723-3ba4971687f2" />
+
+### Cek container yang berjalan
+<img width="1659" height="133" alt="image" src="https://github.com/user-attachments/assets/08e50dcb-327a-43e5-996c-ac83f842cebb" />
+
+### Test Load Balancing
+<img width="1915" height="1077" alt="image" src="https://github.com/user-attachments/assets/603e3895-d11c-4ecc-ab48-fa65bc185efd" />
+
+### Cek log
+<img width="1913" height="793" alt="image" src="https://github.com/user-attachments/assets/390fb9b9-134d-4d63-a3bd-004da33dc931" />
+
+### Stop semua container
+<img width="1915" height="167" alt="image" src="https://github.com/user-attachments/assets/74d231ff-70d6-4651-bcd3-4097f59a15ca" />
+
+---
+## 4.2 Failure Detection (Heartbeat, Retry, Circuit Breaker)
+### 1. Heartbeat
+<img width="925" height="102" alt="image" src="https://github.com/user-attachments/assets/0fee8bc5-29ce-42d0-b1fd-83c595505f80" />
+
+#### di beda terminal
+<img width="948" height="292" alt="image" src="https://github.com/user-attachments/assets/cada8872-eb33-498e-b823-d4a56c3c2033" />
+<img width="931" height="1025" alt="image" src="https://github.com/user-attachments/assets/5802848c-ddbf-436c-9922-42ee288511a5" />
+
+### 2. Retry dengan Tenacity – check-retry.py
+#### install library
+<img width="956" height="123" alt="image" src="https://github.com/user-attachments/assets/34330e55-58ef-46cd-93ef-1aa1fadf8875" />
+
+#### menjalankannya
+<img width="948" height="107" alt="image" src="https://github.com/user-attachments/assets/3ff8d6ec-4a87-4169-b7ad-ae9c3278520f" />
+
+#### beda terminal
+<img width="948" height="100" alt="image" src="https://github.com/user-attachments/assets/a5534db0-254b-4bd9-bd33-2860249fc312" />
+
+### 3. Circuit Breaker – check-circuit-breaker.py
+#### install library
+<img width="949" height="126" alt="image" src="https://github.com/user-attachments/assets/faa4561f-141e-42bc-b546-a7531d4261e2" />
+
+#### menjalankannya
+<img width="952" height="166" alt="image" src="https://github.com/user-attachments/assets/b535f194-75be-451f-ba01-3044d6526f64" />
+
+#### beda terminal
+<img width="948" height="99" alt="image" src="https://github.com/user-attachments/assets/30e3cf25-b891-4761-a7b7-20e818da9470" />
