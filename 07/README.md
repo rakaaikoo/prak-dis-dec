@@ -61,4 +61,5 @@
 #### cek pada beda terminal
 <img width="919" height="150" alt="image" src="https://github.com/user-attachments/assets/ba7c9ca7-840f-4c34-a003-a87e61fc1aba" />
 
-
+## Kesimpulan:
+#### Pada praktikum ini berhasil dibuat aplikasi Flask sederhana yang dijalankan secara lokal menggunakan Python, kemudian dikonversi menjadi Containerized Application menggunakan Docker. Dengan container, aplikasi dapat dijalankan secara konsisten di berbagai sistem operasi tanpa perlu konfigurasi ulang dependency secara manual. Selain itu, penggunaan Docker mempermudah proses deployment dan distribusi aplikasi berbasis cloud computing
